@@ -1,0 +1,13 @@
+{
+    "name": "Dolár Agora",
+    "version": "1.0.0",
+    "description": "Veja o valor atual do dólar.",
+    "manifest_version": 3,
+    "author": "Victor",
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": "icon.png",
+        "default_title": "Dolár agora"
+    }
+    
+}

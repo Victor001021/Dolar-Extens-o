@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Dolár Agora</title>
+</head>
+<body>
+    <div class="container">
+        <img src="Dollar-Coin-Icon_pskika.png" width="150px" height="150px">
+    </div>
+
+
+    <div class='container' id="valor_dolar">
+
+        <div class="moedas">
+            <select class="contentselect" id="contentselect" >
+                <option value="USD" selected>Dolár</option>
+                <option value="EUR">Euro</option>
+                <option value="ARS">Peso Argentino</option>
+                
+            </select>
+            <input type="number" min="0" value="1.00" id="dolar" step="0.01"/>
+        </div>
+        <p> = </p>
+
+        <div class="moedas">
+            <select class="contentselect" id="selectReal" disabled>
+                <option selected>Real</option>
+                               
+            </select>
+
+            <input type="number" min="0" value="" id="real" step="0.01">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

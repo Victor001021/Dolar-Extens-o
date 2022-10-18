@@ -1,0 +1,84 @@
+body{
+    background-color: #85bb65;
+    padding: 10px;
+}
+
+.container{
+    width: 230px;
+    display: block;
+    text-align: center;
+    margin: auto;
+    color: #FFFFFF;
+}
+p{
+    display: block;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 17pt;
+}
+
+input{
+    width: 100px;
+    height: 20px;
+    border-right: none;
+    border-bottom: none;
+    border-top: none;
+    border-left: 1px solid #7a7a7a;
+    padding-left: 15px;
+}
+
+.moedas{
+    width: 220px;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #FFFFFF;
+}
+
+select{
+    border: none;
+    height: 100%;
+    width: 80px;
+    background-color: #FFFFFF;
+    color: black;
+}
+
+img{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+label{
+    color: black;
+    background-color: yellow;
+    width: 50px;
+}
+
+
+#selectReal{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+}
+
+#selectReal::-ms-expand {
+    display: none;
+  }
+
+
+#selectReal:disabled {
+    background-color: #FFFFFF;
+    color: black;
+    
+}
+
+.label{
+    height: 100%;
+    width: 80px;
+    background-color: #FFFFFF;
+    color: black;
+    text-align: center;
+    float: left;
+    
+}
